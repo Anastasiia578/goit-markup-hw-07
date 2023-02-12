@@ -55,10 +55,7 @@ p {
 .header {
     border-bottom: 1px solid #E7E9FC;
 }
-.header-container{
-    display: flex;
-    align-items: center;
-}
+
 .header-logo {
     font-family: "Raleway", "sans-serif";
     font-weight: 800;
@@ -73,59 +70,6 @@ p {
 }
 .log {
     color: #4d5ae5;
-}
-.header-list {
-    font-family: inherit, "sans-serif";
-    font-weight: 500;
-    font-size: 16px;
-    display: flex;
-}
-.header-n{
-    display: flex;
-    align-items: center;
-    margin-right: auto;
-}
-.menu:hover,
-.menu:focus {
-    color: var(--hover-focus-color);
-}
-.menu {
-    color:var(--text-color);
-    padding: 24px 0px ;
-    display:block;
-    margin-left: 40px;
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.current{
-    position: relative;
-}
-.current::after {
-    position: absolute;
-    content: "";
-    background-color: var(--hover-focus-color);
-    width:100%;
-    top: 48px;
-    border-radius: 2px;
-    height: 4px;
-    margin-top: 22px;
-	left: 0;
-    right: 0;
-}
-
-.header-nav
-{   font-style: normal;
-    display: inline;
-}
-.header-nav:not(:last-child){
-    margin-right: 40px;
-}
-.contact{ padding: 24px 0px;
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.contact:hover,
-.contact:focus {
-    color: var(--hover-focus-color);
 }
 /*main*/
 .title {
