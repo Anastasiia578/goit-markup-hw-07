@@ -55,62 +55,17 @@ p {
 @media screen and (max-width: 1199px){
     .charecter-img{display: none;
     }
-    .charecter-list {
-    margin: 0;
-    padding: 0;
-    }
-.charecter-list t > .friend{
-    margin-top: 72px;
-    width: 396px;
-    }
     .section{
-        display: none;
+    display: none;
     }
 }
 /*version of site*/
 @media screen and (min-width:480px)
 {.container{max-width: 448px;}
-    .charecter-list > .friend {
-        width: 100%;
-    }
-    .charecter-info{
-    text-align: center;
-    color: var(--text-color);
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.11;
-    letter-spacing: 0.02em;
-    margin-bottom: 8px;
-    margin-top: 8px;
-    }   
-.friend-text{
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    }
 }
 @media screen and (min-width:768px){
     .container{max-width: 736px;}
-.charecter-list.friend{
-    width: 315px;
-    margin-right: 65px;
-}  
-    .charecter-list{
-    display: flex;
-    flex-wrap: wrap;
-    }
-.hero-container{
-    width: 586px;
 }
-.hero-box1{
-
-}
-.hero{
-    background-color: #f4f4fd;
-}}
 @media screen and (min-width:1200px){
     .container{max-width:1200px ;}
-    .hero{
-    background-color: #f4f4fd;
-}
 }
