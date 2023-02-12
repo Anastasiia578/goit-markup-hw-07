@@ -194,12 +194,15 @@ p {
 }
 .charecter-list {
     display: flex;
-    flex-wrap: wrap;
-    gap: 72px;
+    margin: 0;
     padding: 0;
 }
-.friend{
-    width: 100%;
+.charecter-list > .friend{
+    width: 265px;
+    margin-right: 24px;
+}
+.charecter-list > .friend:last-child{
+    margin-right: 0;
 }
 .section {
     padding-top: 120px;
@@ -213,11 +216,16 @@ p {
     padding-top: 24px;
     padding-bottom: 24px;
 }
-.charecter {
+.charecter-info {
     color: var(--text-color);
     font-weight: 700;
     font-size: 36px;
     line-height: 1.1;
+}
+.charecter{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
 }
 .hero { 
     font-weight: 700;
@@ -241,9 +249,10 @@ p {
 }
 .hero-box1 {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    gap: 24px;
+    gap: 72px;
 }
 .hero-card {
     background-color: var(--background-color);
@@ -264,6 +273,7 @@ p {
 }
 .it{ 
     margin-bottom: 8px;
+    font-size: 16px;
 }
 .soc-media {
     display: flex;
@@ -709,46 +719,5 @@ fill:#FFFFFF;
     margin-top: 16px;
     margin-bottom: 24px;
 }
-@media screen and (max-width: 1199px){
-    .charecter-img{display: none;
-    }
-    .section{
-        display: none;
-    }
-}
 
-@media screen and (min-width 480px){
-    .container{max-width: 426px ;}
-    .small-container{
-        padding-top: 96px;
-        padding-bottom: 96px;
-}
-p{
-    width: 396px;
-}
 
-}
-@media screen and (min-width 768px){
-    .container{max-width: 736px;}
-    .charecter-list{
-    display: flex;
-    flex-wrap: wrap;
-    }
-}
-
-@media screen and (min-width 1200px){
-    .container{max-width:1200px ;}
-    .small-container{
-        padding-top: 120px;
-        padding-bottom: 120px;
-    }
-    .charecter{
-    padding-top: 32px;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-}
-    .charecter-list{
-    gap: 24px;
-    }
-}
