@@ -67,6 +67,13 @@ p {
     url(../images//bg-tabl.jpg);
     text-align: center;
 }
+@media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .title {
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7),rgba(46, 47, 66, 0.7)), url('./images/b');
+}
+}
 .title-text{
     max-width: 320px;
     margin: 0 auto;
@@ -84,6 +91,13 @@ p {
     padding-top: 112px; 
     padding-bottom: 108px;
     margin: 0 auto;
+}
+@media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .title {
+    background-image:  linear-gradient(rgba(46, 47, 66, 0.7),rgba(46, 47, 66, 0.7)),  url('/images/bg-desc-2x.jpg');
+}
 }
 .title-text{
     font-size: 56px;
