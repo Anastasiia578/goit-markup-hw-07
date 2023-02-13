@@ -76,6 +76,10 @@ p {
 .log {
     color: #4d5ae5;
 }
+.menu-op-btn{
+    display: block;
+    margin-left: auto;
+}
 /*main*/
 .title {
     background-color: #2e2f42;
