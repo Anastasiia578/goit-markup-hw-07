@@ -398,9 +398,10 @@ color: var(--text-color);
 }
 .hero-box1 {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    gap: 24px;
+    gap: 72px;
 }
 .hero-card {
     background-color: var(--background-color);

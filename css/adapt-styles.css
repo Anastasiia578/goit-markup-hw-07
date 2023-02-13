@@ -58,7 +58,10 @@ p {
 }
 /*version of site*/
 @media screen and (min-width:480px)
-{.container {max-width: 448px;}
+{.container {
+    max-width: 448px;
+    margin-bottom: 96px;}
+
 .title-container{
     max-width: 100%;
     text-align: center;
@@ -237,6 +240,13 @@ font-size: 16px;
 letter-spacing: 0.02em;
 line-height: calc(24/16);
 color: var(--text-color);
+}
+.hero-box1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    gap: 72px;
 }
 }
 
