@@ -78,7 +78,41 @@ p {
 }
 .menu-op-btn{
     display: block;
+    border: none;
+    background-color: var(--background-color);
     margin-left: auto;
+}
+.menu-op-btn-img{
+    stroke: #2E2F42;
+}
+.mob-menu {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: var(--background-color);
+}
+.close {
+}
+.icon-clos {
+}
+.mob-menu-list {
+}
+.mob-menu-link {
+}
+.mobile-links {
+}
+.mobile-tel-link {
+}
+.mobile-mail-link {
+}
+.mobile-sm-list {
+}
+.social-mob {
+}
+.team-mob-link {
+}
+.soc-icon {
 }
 /*main*/
 .title {
