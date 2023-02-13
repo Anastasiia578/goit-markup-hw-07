@@ -87,6 +87,12 @@ p {
     display: flex;
     align-items: center;
 }
+.mob-menu{
+    display: none;
+}
+.menu-op-btn{
+display: none;
+}
 .header-navigation {
     display: block;
     margin-left: 118px;
