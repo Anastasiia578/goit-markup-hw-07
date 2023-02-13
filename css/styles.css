@@ -115,6 +115,9 @@ p {
     margin-left: auto;
     background-color: rgba(231, 233, 252, 1);
 }
+.no-scroll{
+    overflow: hidden;
+}
 .mob-menu-list {
     font-weight: 700;
     font-size: 36px;
