@@ -467,17 +467,17 @@ color: var(--text-color);
     text-transform: capitalize;
 }
 .cust {
-    padding-top: 120px;
-    padding-bottom: 120px;
+    padding-top: 96px;
+    padding-bottom: 96px;
 }
 .custom {
-    width: 1128px;
     display: flex;
+    flex-wrap: wrap;
     gap: 24px;
     justify-content: space-between;
 }
 .cust-name {
-    width: calc((100% - 150px) / 6);
+    width: calc((100% - 30px) / 2);
     height: 90px;
 }
 .custom-link {
@@ -552,20 +552,23 @@ color: var(--text-color);
 }
 .footer-container{
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 .footer-media{
     display: block;
     width: 208px;
     padding: 0;
-    margin-left: 120px;
+    margin-top: 72px;
+    margin-bottom: 72px;
 }
 .footer-subscr{
     display: flex;
-    margin-left: 80px;
+    flex-wrap: wrap;
 }
 
 .emal-sub{
-    width: 264px;
+    width: 418px;
     height: 40px;
     font-size: 12px;
     letter-spacing: 0.04em;
@@ -576,13 +579,14 @@ color: var(--text-color);
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
     border-radius: 4px;
     outline: none;
-    margin-right: 24px;
+    margin-bottom: 16px;
 }
 .emal-sub::placeholder{
     color: rgba(255, 255, 255, 0.6);
 }
 
 .sub-txt{
+    text-align: center;
     color: #ffffff;
     font-weight: 500;
     font-size: 16px;
@@ -591,15 +595,13 @@ color: var(--text-color);
 }
 .btn-subscr {
 cursor: pointer;
-display: flex;
-justify-content: center;
-align-items: center;
+display: block;
+margin: auto;
 width:165px;
 height:40px;
 background-color:#4D5AE5;
 border-radius: 4px;
 padding: 8px 24px;
-gap: 16px;
 border: none;
 color: #ffffff;
 font-weight: 500;
