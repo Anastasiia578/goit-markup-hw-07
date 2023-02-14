@@ -29,6 +29,7 @@ img {
     display: block;
     max-width: 100%;
     height: auto;
+    width: 100%;
 }
 .no-scroll{
     overflow: hidden;
@@ -47,7 +48,6 @@ p {
 }
 
 .container {
-    width: 1158px;
     margin-left: auto;
     margin-right: auto;
     padding-left: 15px;
@@ -112,17 +112,16 @@ p {
     height: 24px;
     border-radius: 50%;
     border: 1px solid #9999;
-    display: flex;
+    display: block;
     justify-content: center;
     align-items: center;
-    margin-left: auto;
+    margin-left:  auto;
     background-color: rgba(231, 233, 252, 1);
 }
 
 .header-container{
     display: flex;
     padding-top: 24px;
-    margin-bottom: 24px;
 }
 .mob-menu-list {
     font-weight: 700;
@@ -132,7 +131,8 @@ p {
 .mob-menu-li:not(:last-child){
     padding-bottom: 40px;
 }
-.team-soc-link {
+.mob-menu-link:is(:hover,:focus) {
+    color: var(--hover-focus-color);
 }
 .mobile-cont:not(:last-child){
     padding-bottom: 40px;
