@@ -106,6 +106,7 @@ p {
     .header-container{
     display: flex;
     align-items: center;
+
 }
 .mob-menu{
     display: none;
@@ -115,7 +116,7 @@ display: none;
 }
 .header-navigation {
     display: block;
-    margin-left: 118px;
+    margin-left: 100px;
 }
     .header-list {
     font-family: inherit, "sans-serif";
@@ -426,7 +427,6 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) ;
 /*modal*/
 .modal-textare{
     width: 360px;}
-}
 .modal {
 width: 480px;}
 .modal-close {
@@ -435,4 +435,4 @@ width: 480px;}
 .checkbox-txt{
     font-size: 12px;
 }
-
+}
