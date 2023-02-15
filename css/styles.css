@@ -197,7 +197,7 @@ p {
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
     .title {
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7),rgba(46, 47, 66, 0.7)), url('/images/bg-mob-2x.jpg');
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7),rgba(46, 47, 66, 0.7)), url(../images/bg-mob-2x.jpg);
 }
 }
 .title-container{
