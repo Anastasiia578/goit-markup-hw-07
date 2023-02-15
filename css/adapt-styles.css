@@ -321,7 +321,7 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) ;
     margin-bottom: 24px;
 }
 .modal {
-width: 480px;
+width: 408px;
 padding: 24px;
 }
 .modal-textare{
@@ -464,7 +464,7 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) ;
 .modal-textare{
     width: 360px;}
 .modal {
-width: 480px;
+width: 408px;
 padding: 24px;
 }
 .modal-close {
