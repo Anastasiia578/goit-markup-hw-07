@@ -101,7 +101,6 @@ p {
 /*modal*/
 .modal {
     width: 392px;
-    max-height: 586px;
 }
 .modal-close{
     margin-top: 0;
