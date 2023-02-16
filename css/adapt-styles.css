@@ -123,6 +123,7 @@ p {
     .header-container{
     display: flex;
     align-items: center;
+    padding-bottom: 0;
 
 }
 .mob-menu{
@@ -247,10 +248,12 @@ color: var(--text-color);
     gap: 24px;} 
 /*Custom sec*/
 .custom {
+    width: 530px;
     display: flex;
     flex-wrap: wrap;
     gap: 24px;
     row-gap: 72px;
+    margin: 0 auto;
 }
 .cust-name {
     width: calc((100% - 90px) / 3);
@@ -263,15 +266,18 @@ color: var(--text-color);
     display: flex;
     align-items: center;
 }
+.logo-container{
+    padding-bottom: 72px;}
 .footer-subscr{
     display: flex;
 }
+.footer-subs{
+    margin: 0 auto;
+    margin-left: 108px;}
 .sub-txt {
     text-align: left;
     color: #ffffff;
     font-weight: 500;
-    font-size: 16px;
-    margin-bottom: 16px;
     margin: 0 auto;}
 .emal-sub{
     width: 264px;
@@ -303,6 +309,7 @@ color: #ffffff;
 font-weight: 500;
 font-size: 16px;
 transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) ;
+margin: 0 auto;
 }
 .footer-logo {
     margin: 0 auto;}
@@ -312,8 +319,9 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) ;
     width: 208px;
     padding: 0;
     margin-left: 24px;
-    margin-bottom: 96px;
-    padding-bottom: 16px;
+    margin-top: 0;
+    padding-bottom: 110px;
+    margin-bottom: 0;
 }
 .title-soc{text-align: left;}
 /*modal*/
@@ -325,6 +333,7 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) ;
 .modal {
 width: 408px;
 padding: 24px;
+    max-height: 768px;
 }
 .modal-textare{
     width: 360px;
@@ -340,11 +349,11 @@ padding: 24px;
     .container{max-width:1200px ;}
     .header-container {
     display: flex;
-    padding-top: 24px;}
+    padding-top: 24px;
+    padding-bottom: 0;}
     /*Hero*/
-    .title-container{
-    max-width: 1140px;}
     .title{
+    width:1440px ;
     padding-top: 188px; 
     padding-bottom: 188px;
     text-align: center;
@@ -375,6 +384,7 @@ padding: 24px;
     line-height: 1.2;
 }
 .friend-text{
+    font-weight: 400;
     letter-spacing: 0.02em;
     color: var(--text-color);
     font-size: 16px;
@@ -400,6 +410,7 @@ padding: 24px;
     display: flex;
     gap: 24px;
     justify-content: space-between;
+    width: 1128px;
 }
 .cust-name {
     width: calc((100% - 150px) / 6);
@@ -424,6 +435,10 @@ padding: 24px;
     outline: none;
     margin-right: 24px;
 }
+.footer-container{
+    display: flex;
+}
+
 .btn-subscr {
 cursor: pointer;
 display: flex;
@@ -440,12 +455,14 @@ color: #ffffff;
 font-weight: 500;
 font-size: 16px;
 transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) ;
+margin: 0 auto;
 }
 .footer-media{
     display: block;
     width: 208px;
     padding: 0;
     margin-left: 120px;
+    padding-bottom: 100px;
 }
 .sub-txt {
     text-align: left;
@@ -455,6 +472,10 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) ;
     margin-bottom: 16px;
     margin-left: 80px;
 }
+.title-soc {
+    text-align: left;
+    padding-top: 0px;
+}
 .footer-logo {
     font-family: "Raleway", "sans-serif";
     font-weight: 800;
@@ -462,6 +483,10 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) ;
     text-transform: uppercase;
     color: var(--footer-text-color);
     line-height: 1.16;}
+.footer-subs{
+    margin: 0 auto;
+    padding-bottom: 99px;
+}
 /*portfolio*/
 .portfolio-top {
     padding-top: 96px;
