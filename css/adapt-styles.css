@@ -193,7 +193,7 @@ display: none;
     .title-container{
     max-width: 100%;}
     .title{ background-image: linear-gradient(rgba(46, 47, 66, 0.7),rgba(46, 47, 66, 0.7)), 
-    url(../images//bg-desc.jpg);
+    url('../images//bg-desc.jpg');
     text-align: center;
     padding-top: 112px; 
     padding-bottom: 108px;
@@ -203,7 +203,7 @@ display: none;
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
     .title {
-    background-image:  linear-gradient(rgba(46, 47, 66, 0.7),rgba(46, 47, 66, 0.7)),  url('/images/bg-desc-2x.jpg');
+    background-image:  linear-gradient(rgba(46, 47, 66, 0.7),rgba(46, 47, 66, 0.7)),  url('../images/bg-desc-2x.jpg');
 }
 }
 .title-text{
